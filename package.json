@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./output.css --watch",
-    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./output-min.css --minify"
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./output-min.css --minify --watch"
   },
   "author": "",
   "license": "ISC",
