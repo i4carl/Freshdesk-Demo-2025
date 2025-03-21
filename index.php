@@ -238,14 +238,14 @@
                                     </div>
                                 </form>
                                 <div class="rounded-full w-fit flex overflow-hidden border-2 border-[#333] fs-20 semi-bold !mt-[24px] text-start font-['Inter',sans-serif] text-[#333]">
-                                    <div class="w-fit px-6 py-[12px] bg-[#000] text-white text-sm">
+                                    <div class="w-fit px-6 !py-[12px] bg-[#000] text-white text-sm">
                                         Are you an agent?
                                     </div>
                                     <div class="w-fit flex relative">
                                         <a
                                             id=""
                                             href="https://rifreshworks.myfreshworks.com/login?client_id=451980303908285122&amp;redirect_uri=https%3A%2F%2Frifreshworks.freshdesk.com%2Ffreshid%2Fauthorize_callback%3Fhd%3Dhttps%3A%2F%2Frifreshworks.freshdesk.com"
-                                            class="!transition-all !ease-in-out !duration-700 fw-twitter-btn px-6 hover:px-10 py-[12px] !text-[#787878] hover:!text-[#121212] uppercase whitespace-nowrap mx-0 text-sm h-full flex items-center justify-center"
+                                            class="!transition-all !ease-in-out !duration-700 fw-twitter-btn px-6 hover:!px-10 !py-[12px] !text-[#787878] hover:!text-[#121212] uppercase whitespace-nowrap mx-0 text-sm h-full flex items-center justify-center"
                                         >
                                             Login here
                                         </a>
