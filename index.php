@@ -112,7 +112,7 @@
     </head>
 
     <body class="portal portal--light" data-new-gr-c-s-check-loaded="14.1226.0" data-gr-ext-installed="">
-        <header class="px-0 fw-nav-wrapper sticky top-0 border-0">
+        <header class="px-0 sticky top-0 border-0">
             <section class="w-full mx-auto">
                 <nav class="navbar navbar-expand-xl navbar-light !p-[45px]">
                     <a class="navbar-brand d-flex align-items-center !max-w-none" href="https://i4asiacorp.com">
