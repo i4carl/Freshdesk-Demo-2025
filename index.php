@@ -115,7 +115,7 @@
         <header class="px-0 fw-nav-wrapper sticky top-0 border-0">
             <section class="w-full mx-auto">
                 <nav class="navbar navbar-expand-xl navbar-light !p-[45px]">
-                    <a class="navbar-brand d-flex align-items-center" href="https://i4asiacorp.com">
+                    <a class="navbar-brand d-flex align-items-center !max-w-auto" href="https://i4asiacorp.com">
                         <!-- <img data-src="/assets/misc/logo.png" loading="lazy" alt="Freshworks Logo" class="d-inline-block align-top me-4 fw-brand-logo ls-is-cached lazyloaded" src="/assets/misc/logo.png" /> -->
                         <div class="text-xl font-['Inter',sans-serif] semi-bold fw-brand-name" title="Customer Service Suite">FreshDesk Demo Portal</div>
                     </a>
