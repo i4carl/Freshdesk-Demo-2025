@@ -42,8 +42,8 @@
         <style type="text/css">
             /* theme */
             .portal--light {
-                --fw-body-bg: #dedede;
-                --fw-header-bg: #dedede;
+                --fw-body-bg: #d6e7f0;
+                --fw-header-bg: #d6e7f0;
                 --fw-header-text-color: #000000;
                 --fw-helpcenter-bg: #12344d;
                 --fw-helpcenter-text-color: #ffffff;
@@ -117,7 +117,7 @@
                 <nav class="navbar navbar-expand-xl navbar-light !p-[45px]">
                     <a class="navbar-brand d-flex align-items-center !max-w-none" href="https://i4asiacorp.com">
                         <!-- <img data-src="/assets/misc/logo.png" loading="lazy" alt="Freshworks Logo" class="d-inline-block align-top me-4 fw-brand-logo ls-is-cached lazyloaded" src="/assets/misc/logo.png" /> -->
-                        <div class="text-xl font-['Inter',sans-serif] semi-bold fw-brand-name !max-w-none" title="Customer Service Suite">FreshDesk Demo Portal</div>
+                        <div class="text-xl font-['Inter',sans-serif] semi-bold fw-brand-name !max-w-none !text-[#333] hover:!text-[#2A2A2A]" title="Customer Service Suite">FreshDesk Demo Portal</div>
                     </a>
 
                     <button
@@ -156,11 +156,11 @@
                                     </p>
 
                                     <div
-                                        class="form-group bg-white group rounded-full w-[450px] h-auto flex gap-[8px] transition duration-700 ease-in-out !border-[#5e5e5e] focus-within:!border-[#2b2b2b] border items-center py-[8px] pl-[12px] pr-[14px]"
+                                        class="form-group bg-white group rounded-full w-[450px] h-auto flex gap-[8px] transition duration-700 ease-in-out !border-[#5e5e5e] focus-within:!border-[#22b065] border items-center py-[8px] pl-[12px] pr-[14px]"
                                     >
                                         <svg class="w-[24px] h-[24px]" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
-                                                class="stroke-[#5e5e5e] group-focus-within:stroke-[#2b2b2b] transition duration-700 ease-in-out"
+                                                class="stroke-[#5e5e5e] group-focus-within:stroke-[#22b065] transition duration-700 ease-in-out"
                                                 d="M6 21V19C6 17.9391 6.42143 16.9217 7.17157 16.1716C7.92172 15.4214 8.93913 15 10 15H14C15.0609 15 16.0783 15.4214 16.8284 16.1716C17.5786 16.9217 18 17.9391 18 19V21M8 7C8 8.06087 8.42143 9.07828 9.17157 9.82843C9.92172 10.5786 10.9391 11 12 11C13.0609 11 14.0783 10.5786 14.8284 9.82843C15.5786 9.07828 16 8.06087 16 7C16 5.93913 15.5786 4.92172 14.8284 4.17157C14.0783 3.42143 13.0609 3 12 3C10.9391 3 9.92172 3.42143 9.17157 4.17157C8.42143 4.92172 8 5.93913 8 7Z"
                                                 stroke="black"
                                                 stroke-width="2"
@@ -183,13 +183,13 @@
                                     </div>
 
                                     <div
-                                        class="form-group bg-white group rounded-full w-[450px] h-auto flex gap-[8px] transition duration-700 ease-in-out !border-[#5e5e5e] focus-within:!border-[#2b2b2b] border items-center py-[8px] pl-[12px] pr-[14px] !mb-[40px]"
+                                        class="form-group bg-white group rounded-full w-[450px] h-auto flex gap-[8px] transition duration-700 ease-in-out !border-[#5e5e5e] focus-within:!border-[#22b065] border items-center py-[8px] pl-[12px] pr-[14px] !mb-[40px]"
                                     >
                                         <svg class="w-[24px] h-[24px]" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M12 17C11.4696 17 10.9609 16.7893 10.5858 16.4142C10.2107 16.0391 10 15.5304 10 15C10 13.89 10.89 13 12 13C12.5304 13 13.0391 13.2107 13.4142 13.5858C13.7893 13.9609 14 14.4696 14 15C14 15.5304 13.7893 16.0391 13.4142 16.4142C13.0391 16.7893 12.5304 17 12 17ZM18 20V10H6V20H18ZM18 8C18.5304 8 19.0391 8.21071 19.4142 8.58579C19.7893 8.96086 20 9.46957 20 10V20C20 20.5304 19.7893 21.0391 19.4142 21.4142C19.0391 21.7893 18.5304 22 18 22H6C5.46957 22 4.96086 21.7893 4.58579 21.4142C4.21071 21.0391 4 20.5304 4 20V10C4 8.89 4.89 8 6 8H7V6C7 4.67392 7.52678 3.40215 8.46447 2.46447C9.40215 1.52678 10.6739 1 12 1C12.6566 1 13.3068 1.12933 13.9134 1.3806C14.52 1.63188 15.0712 2.00017 15.5355 2.46447C15.9998 2.92876 16.3681 3.47995 16.6194 4.08658C16.8707 4.69321 17 5.34339 17 6V8H18ZM12 3C11.2044 3 10.4413 3.31607 9.87868 3.87868C9.31607 4.44129 9 5.20435 9 6V8H15V6C15 5.20435 14.6839 4.44129 14.1213 3.87868C13.5587 3.31607 12.7956 3 12 3Z"
                                                 fill="black"
-                                                class="fill-[#5e5e5e] group-focus-within:fill-[#2b2b2b] transition duration-700 ease-in-out"
+                                                class="fill-[#5e5e5e] group-focus-within:fill-[#22b065] transition duration-700 ease-in-out"
                                             ></path>
                                         </svg>
 
@@ -228,9 +228,8 @@
                                         <div class="w-fit">
                                             <button
                                                 type="submit"
-                                                class="btn fw-primary-button btn-block login-button !rounded-full !w-fit !py-[12px] !px-[32px] hover:!px-[42px] font-bold !transition-all !ease-in-out !duration-700"
+                                                class="btn fw-primary-button !bg-[#22b065] !tracking-[1px] hover:!text-[#000] !font-['Inter',sans-serif] btn-block login-button !rounded-full !w-fit !py-[12px] !px-[32px] hover:!px-[42px] !font-bold !transition-all !ease-in-out !duration-700"
                                                 data-recaptcha-enterprise=""
-                                                style="font-family: 'Inter', sans-serif; letter-spacing: 1px; background: #000;"
                                             >
                                                 Login
                                             </button>
@@ -238,7 +237,7 @@
                                     </div>
                                 </form>
                                 <div class="rounded-full w-fit flex overflow-hidden border-2 border-[#333] fs-20 semi-bold !mt-[24px] text-start font-['Inter',sans-serif] text-[#333]">
-                                    <div class="w-fit px-6 !py-[12px] bg-[#000] text-white text-sm">
+                                    <div class="w-fit px-6 !py-[12px] bg-[#000] text-[#22b065] text-sm">
                                         Are you an agent?
                                     </div>
                                     <div class="w-fit flex relative">
