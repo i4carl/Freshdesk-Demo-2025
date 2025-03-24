@@ -146,7 +146,7 @@
                         <div class="alert alert-with-close notice" id="noticeajax" style="display: none;"></div>
 
                         <div class="h-full flex p-0">
-                            <div class="w-full pt-10 flex flex-col items-center">
+                            <div class="w-full py-10 flex flex-col items-center">
                                 <h1 class="text-[36px] !font-['Inter',sans-serif] !mb-[36px] w-[550px] text-center">Welcome to Freshdesk Demo Portal</h1>
                                 <form novalidate="novalidate" class="new_user_session" id="new_user_session" action="/support/login" accept-charset="UTF-8" method="post" style="/* display: flex; */">
                                     <input name="utf8" type="hidden" value="✓" /><input type="hidden" name="authenticity_token" value="jzncaiE9s/rSJjNBlzYBfXJxfx45Av+53EGzNWkFev/GFssVDUSvYxGCvjI/DRWVC00PVp+apDUMmRrLV2A7hQ==" />
@@ -317,11 +317,11 @@
                         id=""
                         href="https://www.freshworks.com/freshdesk/?utm_source=portal&amp;utm_medium=reflink&amp;utm_campaign=portal_reflink"
                         target="_blank"
-                        class="font-['Inter',sans-serif] hover:!text-[#121212] !text-[#333] text-sm !no-underline !px-6"
+                        class="font-bold font-['Inter',sans-serif] hover:!text-[#121212] !text-[#333] text-sm !no-underline !px-6"
                     >
                         Freshdesk
                     </a>
-                    <a id="" href="" class="cookie-link font-['Inter',sans-serif] hover:!text-[#121212] !text-[#333] text-sm !no-underline !px-6 opacity-100" data-bs-toggle="modal" data-bs-target="#portal-cookie-info">Cookie policy</a>
+                    <a id="" href="" class="cookie-link font-bold font-['Inter',sans-serif] hover:!text-[#121212] !text-[#333] text-sm !no-underline !px-6 opacity-100" data-bs-toggle="modal" data-bs-target="#portal-cookie-info">Cookie policy</a>
 
                     <div class="modal fade" id="portal-cookie-info" tabindex="-1" role="dialog" aria-labelledby="portal-cookie-info" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -345,7 +345,7 @@
                             </div>
                         </div>
                     </div>
-                    <a id="" href="https://www.freshworks.com/privacy" class="footer-link font-['Inter',sans-serif] hover:!text-[#121212] !text-[#333] text-sm !no-underline !px-6" target="_blank" style="color: #333;">Privacy Policy</a>
+                    <a id="" href="https://www.freshworks.com/privacy" class="footer-link font-bold font-['Inter',sans-serif] hover:!text-[#121212] !text-[#333] text-sm !no-underline !px-6" target="_blank" style="color: #333;">Privacy Policy</a>
                 </nav>
             </section>
         </footer>
