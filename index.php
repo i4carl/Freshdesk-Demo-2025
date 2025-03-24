@@ -216,11 +216,13 @@
                                             <div class="form-check">
                                                 <input name="user_session[remember_me]" type="hidden" value="false" />
 
-                                                <input type="checkbox" class="form-check-input" id="rememberInput" name="user_session[remember_me]" value="1" checked="true" aria_describedby="rememberInput" />
+                                                <div class="flex items-center gap-[8px]">
+                                                    <input type="checkbox" class="form-check-input cursor-pointer mt-0 !rounded-[0] !border-[#333] checked:!bg-[#22b065] checked:!border-[#22b065]" id="rememberInput" name="user_session[remember_me]" value="1" checked="true" aria_describedby="rememberInput" />
 
-                                                <label for="rememberInput" class="form-check-label" style="font-family: 'Inter', sans-serif; font-size: 14px;">
-                                                    Remember me on this computer
-                                                </label>
+                                                    <label for="rememberInput" class="form-check-label" style="font-family: 'Inter', sans-serif; font-size: 14px;">
+                                                        Remember me on this computer
+                                                    </label>
+                                                </div>
 
                                                 <div class="invalid-feedback rememberInput"></div>
                                             </div>
